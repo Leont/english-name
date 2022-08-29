@@ -1,5 +1,6 @@
 package English::Name;
 
+use v5.10;
 use strict;
 use warnings;
 
@@ -68,12 +69,6 @@ This module defines the following aliases:
 =item * C<${^PERL_VERSION}> => C<$^V>
 
 =item * C<${^EXECUTABLE_NAME}> => C<$^X>
-
-=item * C<${^MATCH}> => C<$&>
-
-=item * C<${^PREMATCH}> => C<$`>
-
-=item * C<${^POSTMATCH}> => C<$'>
 
 =item * C<${^PERLDB}> => C<$^P>
 
