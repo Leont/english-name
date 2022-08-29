@@ -3,6 +3,8 @@
 #include "perl.h"
 #include "XSUB.h"
 
+#include "ppport.h"
+
 typedef struct { const char* pointer; size_t length; } string;
 typedef struct { string key; string value; bool autovivify; } entry;
 typedef entry map[];
